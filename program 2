@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+struct hospital{
+  int patient id;
+  char patient_name[100];
+  char patient_state[100];
+};
+int main()
+{
+    struct hospital p1;
+    p1.patient_id = 101;
+    strcpy(p1.patient_name, "Arun");
+    strcpy(p1.patient_state, "Stable");
+    printf("Patient ID : %d\n", p1.patient_id);
+    printf("Patient Name : %s\n", p1.patient_name);
+    printf("Patient State : %s\n", p1.patient_state);
+
+    return 0;
+}   
