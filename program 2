@@ -10,7 +10,7 @@ int main()
 {
     struct hospital p1;
     p1.patient_id = 101;
-    strcpy(p1.patient_name, "Arun");
+    strcpy(p1.patient_name, "Janani");
     strcpy(p1.patient_state, "Stable");
     printf("Patient ID : %d\n", p1.patient_id);
     printf("Patient Name : %s\n", p1.patient_name);
